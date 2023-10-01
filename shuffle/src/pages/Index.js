@@ -103,7 +103,11 @@ export default function Index() {
                 className='mb-12 lg:mb-24 text-xl text-gray-200'
                 contentEditable='false'
               >
-                Новое Слово в Мире Финансов
+                Новое Слово в Мире Финансов SMART-BANKIR - это передовая
+                платформа, предназначенная для обеспечения взаимной финансовой
+                поддержки.&nbsp; Мы создали современную, легкую в использовании
+                и интеллектуальную систему, которая позволяет инвестировать и
+                получать займы на самых выгодных условиях.
               </p>
               <a
                 className='inline-block px-12 py-5 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200'
@@ -191,9 +195,8 @@ export default function Index() {
             </nav>
           </div>
           <div className='header_indiator'>
-            <h2>Scroll Indicator</h2>
             <div className='progress-container'>
-              <div className='progress-bar' id='myBar' />
+              <div className='progress-bar bg-blue-500' id='myBar' />
             </div>
           </div>
           <div>content...</div>
@@ -226,7 +229,7 @@ export default function Index() {
             <div className='hidden lg:block absolute left-0 top-0 mt-40 w-1/2 h-px bg-gray-50' />
             <img
               className='lg:relative lg:max-w-4xl mx-auto'
-              src='zospace-assets/images/smartphone.png'
+              src='images/smartphone.png'
               alt=''
             />
           </div>
